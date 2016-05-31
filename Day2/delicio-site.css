@@ -1,0 +1,73 @@
+body {
+	margin=0;
+	padding=0;
+}
+
+.header {
+	background-color: white;
+	/*position: fixed;*/
+	margin-bottom: 50px;
+}
+
+.Delicio {
+	font-family: Helvetica;
+	font-size: 24px;
+}
+
+.tabs {
+	font-family: Helvetica;
+	text-align: right;
+}
+
+.content {
+	text-align: center;
+	background-color: gray;
+	color: white;
+	padding: 50px;
+}
+
+.title {
+	font-size: 30px;
+	border-bottom: 1pt solid white;
+}
+
+.text {
+	padding:50px;
+}
+
+.button {
+	border: 2px solid orange;
+	width: 300px;
+	background-color: orange;
+	margin-left: 400px;
+}
+
+.footer {
+	background-color: black;
+	padding: 40px;
+}
+
+.top-header {
+	color: white;
+}
+
+.info-text {
+	color: gray;
+}
+
+.get-directions {
+	color: orange;
+}
+
+.top-footer {
+	border-bottom: 1pt solid white;
+}
+
+.bottom-footer {
+	color: gray;
+}
+
+.designed-by {
+	text-align: right;
+} 
+
