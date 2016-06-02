@@ -1,0 +1,30 @@
+h2 {
+	text-align: center;
+}
+
+.content {
+	padding:320px;
+}
+
+.col-md-6 {
+	padding: 400px;
+	text-align: center;
+}
+
+.content {
+	background-position: center;
+	background-image: url("https://img0.etsystatic.com/008/0/6754016/il_fullxfull.406526028_d5om.jpg");
+}
+
+.title { 
+	background-color: none;
+	color: white; 
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Arial;
+	text-align: center;
+}
+
+.no-padding {
+	text-align: center;
+}
