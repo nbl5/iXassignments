@@ -1,0 +1,28 @@
+
+.wrapper {
+	text-align: center;
+	font-family:Verdana;
+	padding-top:150px;
+}
+
+.title {
+	color: #FF00FF;
+	font-size: 70px
+}
+
+.subheading {
+	color: gray;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.links {
+	color: gray;
+	padding-bottom: 20px;
+}
+
+.footer {
+	font-size: 10px;
+}
+
