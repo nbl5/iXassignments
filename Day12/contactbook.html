@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Book</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="./contactbook.js"></script>
+</head>
+<body ng-app="ContactApp" ng-controller="MainCtrl">
+    <h1>Contact Book</h1>
+        <form name="myForm" ng-submit="addItem()" >
+            <div> Search: <input ng-model="search"> </div>
+            <div>Name: <input type="text" ng-model="name">  </div>
+            <div> Phone Number: <input type="text" ng-model="number"> </div>
+            <button ng-click="addName()">Add Contact</button>
+        </form>
+        <ol ng-repeat="item in items | filter:search" > {{item}} 
+        </ol>
+</body>
+</html>
