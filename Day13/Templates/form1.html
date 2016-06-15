@@ -1,0 +1,12 @@
+
+<div ng-controller="MainCtrl">
+  <h1>Form Validation</h1>
+ 	<form name="myForm" ng-submit="submit()" ng-show="showForm">
+            <div>Name: <input type="text" ng-model="name">  </div>
+            <div> Phone Number: <input type="text" ng-model="number"> </div>
+            <div>Email: <input type="text" ng-model="email"> </div>
+            <div>Password: <input type="password" ng-model="password"> </div>
+            <div>Confirm Password: <input type="password" ng-model="confirm"> </div>
+            <button ng-click="Submit()">Submit</button>
+    </form>
+</div>
