@@ -1,0 +1,14 @@
+<div ng-controller="personalCtrl">
+	<h3> Props to Me </h3>	
+	<a href="#/"> Back to Feed </a>
+	<div class="props-feed">
+		<div class="prop" ng-repeat="prop in props">
+		<div>
+			<p class="name"> To: {{prop.receiver.first_name}} </p>
+		</div>
+			<p> {{prop.text}} </p>
+		<div>
+			<small>Positivity: {{prop.positivity_score}}</small>
+		</div>
+	</div>
+</div>
